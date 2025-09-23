@@ -63,26 +63,28 @@ npm run preview
 ## 使用示例
 
 ```typescript
-import { AB3DMOTTracker, Detection, BoundingBox3D } from './src/index'
+import { AB3DMOTTracker, trackBatch, type Detection, type TrackedDetection } from './src/index'
 
-// 创建跟踪器
-const tracker = new AB3DMOTTracker({
-  maxAge: 3,
-  minHits: 3,
-  iouThreshold: 0.3
-})
-
-// 处理检测结果
-const detections: Detection[] = [
-  {
-    bbox: { x: 0, y: 0, z: 0, width: 2, height: 2, length: 2, orientation: 0 },
-    confidence: 0.9
-  }
+// 方式一：逐帧流式更新
+const tracker = new AB3DMOTTracker({ maxAge: 3, minHits: 3, iouThreshold: 0.3 })
+const frame1: Detection[] = [
+  { bbox: { x: 0, y: 0, z: 0, width: 2, height: 2, length: 2, orientation: 0 }, confidence: 0.9 }
 ]
+const out1: TrackedDetection[] = tracker.step(frame1)
+console.log('frame1 out:', out1)
 
-// 更新跟踪器
-const tracks = tracker.update(detections)
-console.log('跟踪结果:', tracks)
+// 方式二：批处理（一次性传入多帧数据，调用 run() 得到每帧结果）
+const data: Detection[][] = [
+  [ { bbox: { x: 0, y: 0, z: 0, width: 2, height: 2, length: 2, orientation: 0 }, confidence: 0.9 } ],
+  [ { bbox: { x: 0.2, y: 0.0, z: 0.1, width: 2, height: 2, length: 2, orientation: 0 }, confidence: 0.92 } ]
+]
+const batchTracker = new AB3DMOTTracker({ data })
+const outputs: TrackedDetection[][] = batchTracker.run()
+console.log('batch outputs:', outputs)
+
+// 方式三：函数式批处理（无需手动管理类实例）
+const outputs2 = trackBatch(data, { maxAge: 3, minHits: 2, iouThreshold: 0.3 })
+console.log('trackBatch outputs:', outputs2)
 ```
 
 ## 技术栈
