@@ -1,0 +1,2943 @@
+[
+  [
+    {
+      "bbox": {
+        "x": 8.815,
+        "y": -6.99,
+        "z": 0.388,
+        "width": 5.279,
+        "height": 2.134,
+        "length": 1.587,
+        "orientation": 5.981
+      },
+      "confidence": 0.935,
+      "classId": 1,
+      "id": 26,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 26.277,
+        "y": 12.958,
+        "z": 0.224,
+        "width": 4.916,
+        "height": 2.086,
+        "length": 1.571,
+        "orientation": 1.802
+      },
+      "confidence": 0.934,
+      "classId": 1,
+      "id": 27,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 30.965,
+        "y": -5.315,
+        "z": 0.511,
+        "width": 4.88,
+        "height": 2.15,
+        "length": 1.687,
+        "orientation": 2.196
+      },
+      "confidence": 0.874,
+      "classId": 1,
+      "id": 28,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 20.99,
+        "y": 7.192,
+        "z": 0.408,
+        "width": 4.209,
+        "height": 1.968,
+        "length": 1.592,
+        "orientation": 2.21
+      },
+      "confidence": 0.854,
+      "classId": 1,
+      "id": 29,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": 2.944,
+        "y": 19.289,
+        "z": 0.73,
+        "width": 4.618,
+        "height": 1.99,
+        "length": 1.672,
+        "orientation": 4.019
+      },
+      "confidence": 0.852,
+      "classId": 1,
+      "id": 30,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": -1.883,
+        "y": -7.738,
+        "z": 0.625,
+        "width": 4.787,
+        "height": 1.983,
+        "length": 1.816,
+        "orientation": 6.759
+      },
+      "confidence": 0.848,
+      "classId": 1,
+      "id": 31,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": 25.888,
+        "y": 1.389,
+        "z": 0.627,
+        "width": 6.612,
+        "height": 2.606,
+        "length": 2.194,
+        "orientation": 2.199
+      },
+      "confidence": 0.81,
+      "classId": 1,
+      "id": 32,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": -9.877,
+        "y": 5.395,
+        "z": 0.711,
+        "width": 4.458,
+        "height": 1.985,
+        "length": 1.611,
+        "orientation": 3.948
+      },
+      "confidence": 0.795,
+      "classId": 1,
+      "id": 33,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": 26.336,
+        "y": 36.717,
+        "z": 0.395,
+        "width": 4.683,
+        "height": 2.072,
+        "length": 1.565,
+        "orientation": 3.848
+      },
+      "confidence": 0.788,
+      "classId": 1,
+      "id": 34,
+      "trackId": 9
+    },
+    {
+      "bbox": {
+        "x": 13.788,
+        "y": 32.565,
+        "z": 0.52,
+        "width": 4.761,
+        "height": 2.084,
+        "length": 1.76,
+        "orientation": 4.027
+      },
+      "confidence": 0.779,
+      "classId": 1,
+      "id": 35,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": 35.135,
+        "y": -11.628,
+        "z": 0.772,
+        "width": 4.504,
+        "height": 2.049,
+        "length": 1.718,
+        "orientation": 2.197
+      },
+      "confidence": 0.7,
+      "classId": 1,
+      "id": 36,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": 20.721,
+        "y": 31.421,
+        "z": 0.604,
+        "width": 4.692,
+        "height": 2.13,
+        "length": 1.868,
+        "orientation": 3.868
+      },
+      "confidence": 0.691,
+      "classId": 1,
+      "id": 37,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": -30.861,
+        "y": -7.568,
+        "z": 0.82,
+        "width": 4.627,
+        "height": 1.985,
+        "length": 1.538,
+        "orientation": 3.971
+      },
+      "confidence": 0.676,
+      "classId": 1,
+      "id": 38,
+      "trackId": 13
+    },
+    {
+      "bbox": {
+        "x": -18.101,
+        "y": 4.946,
+        "z": 0.676,
+        "width": 4.632,
+        "height": 2.009,
+        "length": 1.668,
+        "orientation": 4.026
+      },
+      "confidence": 0.663,
+      "classId": 1,
+      "id": 39,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": -13.855,
+        "y": -8.37,
+        "z": 0.787,
+        "width": 4.545,
+        "height": 2.023,
+        "length": 1.623,
+        "orientation": 0.813
+      },
+      "confidence": 0.607,
+      "classId": 1,
+      "id": 40,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": -39.352,
+        "y": -16.196,
+        "z": 1.005,
+        "width": 4.561,
+        "height": 2.034,
+        "length": 1.64,
+        "orientation": 4.113
+      },
+      "confidence": 0.607,
+      "classId": 1,
+      "id": 41,
+      "trackId": 16
+    },
+    {
+      "bbox": {
+        "x": 13.865,
+        "y": 19.029,
+        "z": 0.548,
+        "width": 4.362,
+        "height": 1.991,
+        "length": 1.561,
+        "orientation": 7.04
+      },
+      "confidence": 0.603,
+      "classId": 1,
+      "id": 42,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": -2.951,
+        "y": 2.592,
+        "z": 0.787,
+        "width": 4.454,
+        "height": 2.006,
+        "length": 1.799,
+        "orientation": 3.924
+      },
+      "confidence": 0.596,
+      "classId": 1,
+      "id": 43,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": -26.47,
+        "y": -3.686,
+        "z": 0.882,
+        "width": 3.605,
+        "height": 1.756,
+        "length": 1.82,
+        "orientation": 4.041
+      },
+      "confidence": 0.582,
+      "classId": 1,
+      "id": 44,
+      "trackId": 19
+    },
+    {
+      "bbox": {
+        "x": -7.096,
+        "y": 26.563,
+        "z": 0.516,
+        "width": 4.62,
+        "height": 1.981,
+        "length": 1.565,
+        "orientation": 5.478
+      },
+      "confidence": 0.576,
+      "classId": 1,
+      "id": 45,
+      "trackId": 20
+    },
+    {
+      "bbox": {
+        "x": 20.398,
+        "y": 34.983,
+        "z": 0.485,
+        "width": 4.347,
+        "height": 2.021,
+        "length": 1.611,
+        "orientation": 3.984
+      },
+      "confidence": 0.564,
+      "classId": 1,
+      "id": 46,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": -9.027,
+        "y": 23.604,
+        "z": 0.512,
+        "width": 4.458,
+        "height": 2.026,
+        "length": 1.736,
+        "orientation": 5.573
+      },
+      "confidence": 0.55,
+      "classId": 1,
+      "id": 47,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": -22.178,
+        "y": 1.196,
+        "z": 0.773,
+        "width": 4.362,
+        "height": 1.908,
+        "length": 1.657,
+        "orientation": 3.917
+      },
+      "confidence": 0.549,
+      "classId": 1,
+      "id": 48,
+      "trackId": 23
+    },
+    {
+      "bbox": {
+        "x": -14.029,
+        "y": 28.215,
+        "z": 0.48,
+        "width": 4.698,
+        "height": 2.122,
+        "length": 1.726,
+        "orientation": 5.464
+      },
+      "confidence": 0.516,
+      "classId": 1,
+      "id": 49,
+      "trackId": 24
+    },
+    {
+      "bbox": {
+        "x": -4.095,
+        "y": 22.587,
+        "z": 0.719,
+        "width": 0.899,
+        "height": 0.801,
+        "length": 1.862,
+        "orientation": 4.626
+      },
+      "confidence": 0.511,
+      "classId": 2,
+      "id": 50,
+      "trackId": 25
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 26.285682352941176,
+        "y": 13.215576470588234,
+        "z": 0.26885882352941176,
+        "width": 4.901,
+        "height": 2.094,
+        "length": 1.579,
+        "orientation": 1.796
+      },
+      "confidence": 0.94,
+      "classId": 1,
+      "id": 1,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 9.707835294117647,
+        "y": -7.302564705882354,
+        "z": 0.4299647058823529,
+        "width": 5.325,
+        "height": 2.154,
+        "length": 1.648,
+        "orientation": 5.917
+      },
+      "confidence": 0.891,
+      "classId": 1,
+      "id": 2,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": -1.2853647058823527,
+        "y": -7.37044705882353,
+        "z": 0.5960588235294118,
+        "width": 4.771,
+        "height": 1.997,
+        "length": 1.806,
+        "orientation": 6.734
+      },
+      "confidence": 0.884,
+      "classId": 1,
+      "id": 3,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": 30.957764705882354,
+        "y": -5.254223529411764,
+        "z": 0.5905882352941175,
+        "width": 4.815,
+        "height": 2.15,
+        "length": 1.779,
+        "orientation": 2.187
+      },
+      "confidence": 0.878,
+      "classId": 1,
+      "id": 4,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 25.88510588235294,
+        "y": 1.4078117647058823,
+        "z": 0.644364705882353,
+        "width": 6.513,
+        "height": 2.573,
+        "length": 2.112,
+        "orientation": 2.221
+      },
+      "confidence": 0.835,
+      "classId": 1,
+      "id": 5,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": 2.041035294117647,
+        "y": 18.167529411764704,
+        "z": 0.7082941176470589,
+        "width": 4.569,
+        "height": 1.948,
+        "length": 1.61,
+        "orientation": 4.008
+      },
+      "confidence": 0.83,
+      "classId": 1,
+      "id": 6,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": 21.010258823529412,
+        "y": 7.100835294117647,
+        "z": 0.4210235294117647,
+        "width": 4.268,
+        "height": 1.981,
+        "length": 1.609,
+        "orientation": 2.24
+      },
+      "confidence": 0.829,
+      "classId": 1,
+      "id": 7,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": -11.063588235294116,
+        "y": 4.28944705882353,
+        "z": 0.6270705882352942,
+        "width": 4.422,
+        "height": 2.001,
+        "length": 1.598,
+        "orientation": 3.964
+      },
+      "confidence": 0.783,
+      "classId": 1,
+      "id": 8,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": -14.042,
+        "y": 9.328,
+        "z": 0.582,
+        "width": 4.459,
+        "height": 2.031,
+        "length": 1.71,
+        "orientation": 3.948
+      },
+      "confidence": 0.782,
+      "classId": 1,
+      "id": 9,
+      "trackId": 26
+    },
+    {
+      "bbox": {
+        "x": 35.07132941176471,
+        "y": -11.629447058823528,
+        "z": 0.8631647058823528,
+        "width": 4.423,
+        "height": 1.996,
+        "length": 1.753,
+        "orientation": 2.206
+      },
+      "confidence": 0.765,
+      "classId": 1,
+      "id": 10,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": 20.964105882352943,
+        "y": 31.328388235294117,
+        "z": 0.6749058823529412,
+        "width": 4.721,
+        "height": 2.17,
+        "length": 1.881,
+        "orientation": 3.783
+      },
+      "confidence": 0.745,
+      "classId": 1,
+      "id": 11,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": 14.856235294117647,
+        "y": 20.030364705882352,
+        "z": 0.48722352941176467,
+        "width": 4.512,
+        "height": 1.993,
+        "length": 1.551,
+        "orientation": 7.053
+      },
+      "confidence": 0.714,
+      "classId": 1,
+      "id": 12,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": 13.096305882352942,
+        "y": 31.782141176470592,
+        "z": 0.5446,
+        "width": 4.614,
+        "height": 2.056,
+        "length": 1.587,
+        "orientation": 3.966
+      },
+      "confidence": 0.708,
+      "classId": 1,
+      "id": 13,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": -30.819035294117647,
+        "y": -7.5289294117647065,
+        "z": 0.7577764705882353,
+        "width": 4.547,
+        "height": 1.975,
+        "length": 1.502,
+        "orientation": 3.995
+      },
+      "confidence": 0.644,
+      "classId": 1,
+      "id": 14,
+      "trackId": 13
+    },
+    {
+      "bbox": {
+        "x": -2.1869529411764708,
+        "y": 3.319870588235294,
+        "z": 0.7812117647058824,
+        "width": 4.409,
+        "height": 2.016,
+        "length": 1.811,
+        "orientation": 0.788
+      },
+      "confidence": 0.624,
+      "classId": 1,
+      "id": 15,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": -14.020317647058823,
+        "y": 28.14988235294118,
+        "z": 0.4264588235294118,
+        "width": 4.806,
+        "height": 2.097,
+        "length": 1.711,
+        "orientation": 5.565
+      },
+      "confidence": 0.607,
+      "classId": 1,
+      "id": 16,
+      "trackId": 24
+    },
+    {
+      "bbox": {
+        "x": -26.760858823529414,
+        "y": -3.949364705882353,
+        "z": 0.9123882352941177,
+        "width": 4.047,
+        "height": 1.952,
+        "length": 1.851,
+        "orientation": 3.991
+      },
+      "confidence": 0.604,
+      "classId": 1,
+      "id": 17,
+      "trackId": 19
+    },
+    {
+      "bbox": {
+        "x": -7.075741176470587,
+        "y": 26.565894117647062,
+        "z": 0.5246823529411765,
+        "width": 4.656,
+        "height": 2.017,
+        "length": 1.571,
+        "orientation": 5.468
+      },
+      "confidence": 0.597,
+      "classId": 1,
+      "id": 18,
+      "trackId": 20
+    },
+    {
+      "bbox": {
+        "x": -13.072705882352938,
+        "y": -7.366411764705882,
+        "z": 0.6744117647058823,
+        "width": 4.313,
+        "height": 1.983,
+        "length": 1.618,
+        "orientation": 0.829
+      },
+      "confidence": 0.567,
+      "classId": 1,
+      "id": 19,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": -39.435929411764704,
+        "y": -16.14969411764706,
+        "z": 0.8458235294117649,
+        "width": 4.406,
+        "height": 1.971,
+        "length": 1.569,
+        "orientation": 4.007
+      },
+      "confidence": 0.566,
+      "classId": 1,
+      "id": 20,
+      "trackId": 16
+    },
+    {
+      "bbox": {
+        "x": -39.355,
+        "y": -21.98,
+        "z": 1.217,
+        "width": 5.164,
+        "height": 2.217,
+        "length": 1.873,
+        "orientation": 3.979
+      },
+      "confidence": 0.545,
+      "classId": 1,
+      "id": 21,
+      "trackId": 27
+    },
+    {
+      "bbox": {
+        "x": -7.275,
+        "y": -6.587,
+        "z": 0.754,
+        "width": 4.549,
+        "height": 1.997,
+        "length": 1.789,
+        "orientation": 0.821
+      },
+      "confidence": 0.528,
+      "classId": 1,
+      "id": 22,
+      "trackId": 28
+    },
+    {
+      "bbox": {
+        "x": -9.096458823529412,
+        "y": 23.60544705882353,
+        "z": 0.4743764705882353,
+        "width": 4.602,
+        "height": 2.088,
+        "length": 1.764,
+        "orientation": 5.57
+      },
+      "confidence": 0.523,
+      "classId": 1,
+      "id": 23,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": 39.683,
+        "y": -17.627,
+        "z": 1.285,
+        "width": 4.65,
+        "height": 2.1,
+        "length": 1.82,
+        "orientation": 5.349
+      },
+      "confidence": 0.516,
+      "classId": 1,
+      "id": 24,
+      "trackId": 29
+    },
+    {
+      "bbox": {
+        "x": 19.940729411764707,
+        "y": 34.56769411764705,
+        "z": 0.5559058823529412,
+        "width": 4.477,
+        "height": 2.028,
+        "length": 1.588,
+        "orientation": 3.903
+      },
+      "confidence": 0.511,
+      "classId": 1,
+      "id": 25,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": -19.298,
+        "y": 33.995,
+        "z": 0.658,
+        "width": 4.882,
+        "height": 2.131,
+        "length": 1.823,
+        "orientation": 5.656
+      },
+      "confidence": 0.503,
+      "classId": 1,
+      "id": 26,
+      "trackId": 30
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 10.501508330610914,
+        "y": -7.727473374714147,
+        "z": 0.3752669062397909,
+        "width": 5.31,
+        "height": 2.163,
+        "length": 1.599,
+        "orientation": 5.875
+      },
+      "confidence": 0.942,
+      "classId": 1,
+      "id": 1,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 26.226663835347924,
+        "y": 13.338768703038225,
+        "z": 0.27782914080365895,
+        "width": 4.847,
+        "height": 2.086,
+        "length": 1.602,
+        "orientation": 1.797
+      },
+      "confidence": 0.933,
+      "classId": 1,
+      "id": 2,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 31.03792551453773,
+        "y": -5.384432538386149,
+        "z": 0.49672035282587396,
+        "width": 4.918,
+        "height": 2.173,
+        "length": 1.755,
+        "orientation": 2.192
+      },
+      "confidence": 0.878,
+      "classId": 1,
+      "id": 3,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": -0.3503642600457366,
+        "y": -7.0780721986279,
+        "z": 0.579500163345312,
+        "width": 4.725,
+        "height": 2.005,
+        "length": 1.831,
+        "orientation": 6.69
+      },
+      "confidence": 0.877,
+      "classId": 1,
+      "id": 4,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": 1.1371986278993793,
+        "y": 17.143856256125446,
+        "z": 0.7119127736033974,
+        "width": 4.589,
+        "height": 2.009,
+        "length": 1.626,
+        "orientation": 4.039
+      },
+      "confidence": 0.872,
+      "classId": 1,
+      "id": 5,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": 25.811568441685726,
+        "y": 1.486919960797125,
+        "z": 0.6644982032015682,
+        "width": 6.414,
+        "height": 2.552,
+        "length": 2.159,
+        "orientation": 2.193
+      },
+      "confidence": 0.848,
+      "classId": 1,
+      "id": 6,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": 21.054583142763807,
+        "y": 7.20650245017968,
+        "z": 0.4961620385494937,
+        "width": 4.187,
+        "height": 1.968,
+        "length": 1.633,
+        "orientation": 2.212
+      },
+      "confidence": 0.821,
+      "classId": 1,
+      "id": 7,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": 35.05727082652728,
+        "y": -11.599597843841883,
+        "z": 0.7509180006533813,
+        "width": 4.419,
+        "height": 2,
+        "length": 1.659,
+        "orientation": 2.196
+      },
+      "confidence": 0.772,
+      "classId": 1,
+      "id": 8,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": -18.270887850467286,
+        "y": 4.936252336448598,
+        "z": 0.6662523364485982,
+        "width": 4.256,
+        "height": 1.969,
+        "length": 1.599,
+        "orientation": 4.04
+      },
+      "confidence": 0.75,
+      "classId": 1,
+      "id": 9,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": -14.036211764705882,
+        "y": 9.38009411764706,
+        "z": 0.6369882352941176,
+        "width": 4.319,
+        "height": 1.993,
+        "length": 1.646,
+        "orientation": 3.95
+      },
+      "confidence": 0.713,
+      "classId": 1,
+      "id": 10,
+      "trackId": 26
+    },
+    {
+      "bbox": {
+        "x": 12.22139823587063,
+        "y": 30.86979549166939,
+        "z": 0.46976870303822277,
+        "width": 4.636,
+        "height": 2.055,
+        "length": 1.636,
+        "orientation": 4.032
+      },
+      "confidence": 0.704,
+      "classId": 1,
+      "id": 11,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": -30.88360241751062,
+        "y": -7.5140594576935635,
+        "z": 0.8832920614178373,
+        "width": 4.654,
+        "height": 2.002,
+        "length": 1.545,
+        "orientation": 3.979
+      },
+      "confidence": 0.687,
+      "classId": 1,
+      "id": 12,
+      "trackId": 13
+    },
+    {
+      "bbox": {
+        "x": 20.808434825220512,
+        "y": 31.442521071545247,
+        "z": 0.7173662201894806,
+        "width": 4.658,
+        "height": 2.132,
+        "length": 1.874,
+        "orientation": 3.842
+      },
+      "confidence": 0.685,
+      "classId": 1,
+      "id": 13,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": 15.699299248611567,
+        "y": 20.852001306762496,
+        "z": 0.5549268213002289,
+        "width": 4.31,
+        "height": 1.985,
+        "length": 1.641,
+        "orientation": 7.048
+      },
+      "confidence": 0.668,
+      "classId": 1,
+      "id": 14,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": -12.21293106827834,
+        "y": 3.10850081672656,
+        "z": 0.7331764129369487,
+        "width": 4.451,
+        "height": 1.958,
+        "length": 1.587,
+        "orientation": 3.979
+      },
+      "confidence": 0.667,
+      "classId": 1,
+      "id": 15,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": -8.708199934661875,
+        "y": 23.772984318850053,
+        "z": 0.5431545246651421,
+        "width": 4.53,
+        "height": 2.108,
+        "length": 1.732,
+        "orientation": 5.403
+      },
+      "confidence": 0.619,
+      "classId": 1,
+      "id": 16,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": -38.478740934335185,
+        "y": -16.451531852335833,
+        "z": 1.0164668409016657,
+        "width": 4.4,
+        "height": 1.977,
+        "length": 1.561,
+        "orientation": 4.171
+      },
+      "confidence": 0.617,
+      "classId": 1,
+      "id": 17,
+      "trackId": 16
+    },
+    {
+      "bbox": {
+        "x": 19.63863835347926,
+        "y": 34.350720679516506,
+        "z": 0.5720480235217249,
+        "width": 4.556,
+        "height": 2.048,
+        "length": 1.559,
+        "orientation": 4.016
+      },
+      "confidence": 0.611,
+      "classId": 1,
+      "id": 18,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": -26.578098007187194,
+        "y": -3.69139333551127,
+        "z": 0.9994328650767721,
+        "width": 3.805,
+        "height": 1.852,
+        "length": 1.813,
+        "orientation": 4.039
+      },
+      "confidence": 0.602,
+      "classId": 1,
+      "id": 19,
+      "trackId": 19
+    },
+    {
+      "bbox": {
+        "x": -1.6267667428944783,
+        "y": 4.1015681149951,
+        "z": 0.8035602744201242,
+        "width": 4.51,
+        "height": 2.019,
+        "length": 1.842,
+        "orientation": 0.797
+      },
+      "confidence": 0.592,
+      "classId": 1,
+      "id": 20,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": -22.44856074766355,
+        "y": 1.0011962616822432,
+        "z": 0.6810093457943924,
+        "width": 4.539,
+        "height": 2.011,
+        "length": 1.785,
+        "orientation": 3.969
+      },
+      "confidence": 0.566,
+      "classId": 1,
+      "id": 21,
+      "trackId": 23
+    },
+    {
+      "bbox": {
+        "x": 26.462719626168223,
+        "y": 36.60977570093458,
+        "z": 0.470196261682243,
+        "width": 4.346,
+        "height": 1.986,
+        "length": 1.651,
+        "orientation": 3.883
+      },
+      "confidence": 0.559,
+      "classId": 1,
+      "id": 22,
+      "trackId": 9
+    },
+    {
+      "bbox": {
+        "x": -7.061024828487422,
+        "y": 26.535803658934988,
+        "z": 0.4705984972231297,
+        "width": 4.54,
+        "height": 1.972,
+        "length": 1.523,
+        "orientation": 5.489
+      },
+      "confidence": 0.542,
+      "classId": 1,
+      "id": 23,
+      "trackId": 20
+    },
+    {
+      "bbox": {
+        "x": -14.116773603397586,
+        "y": 27.932279973864752,
+        "z": 0.42587683763475986,
+        "width": 4.699,
+        "height": 2.052,
+        "length": 1.716,
+        "orientation": 5.615
+      },
+      "confidence": 0.541,
+      "classId": 1,
+      "id": 24,
+      "trackId": 24
+    },
+    {
+      "bbox": {
+        "x": -35.6,
+        "y": -29.157,
+        "z": 1.099,
+        "width": 4.52,
+        "height": 2.023,
+        "length": 1.573,
+        "orientation": 6.94
+      },
+      "confidence": 0.525,
+      "classId": 1,
+      "id": 25,
+      "trackId": 31
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 26.241085594925433,
+        "y": 13.448678262605785,
+        "z": 0.31360913237801225,
+        "width": 4.91,
+        "height": 2.115,
+        "length": 1.581,
+        "orientation": 1.803
+      },
+      "confidence": 0.938,
+      "classId": 1,
+      "id": 1,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 11.21006037567771,
+        "y": -8.08735268549663,
+        "z": 0.4146954645287134,
+        "width": 5.322,
+        "height": 2.157,
+        "length": 1.585,
+        "orientation": 5.834
+      },
+      "confidence": 0.924,
+      "classId": 1,
+      "id": 2,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 0.21871831851203355,
+        "y": -6.972449937796618,
+        "z": 0.5481679644903161,
+        "width": 4.697,
+        "height": 1.984,
+        "length": 1.781,
+        "orientation": 6.667
+      },
+      "confidence": 0.884,
+      "classId": 1,
+      "id": 3,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": 30.98775289130535,
+        "y": -5.29903552504262,
+        "z": 0.5448960512371562,
+        "width": 4.931,
+        "height": 2.153,
+        "length": 1.786,
+        "orientation": 2.153
+      },
+      "confidence": 0.861,
+      "classId": 1,
+      "id": 4,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 25.818672779492847,
+        "y": 1.4737555483880875,
+        "z": 0.7062319495000692,
+        "width": 6.426,
+        "height": 2.554,
+        "length": 2.133,
+        "orientation": 2.201
+      },
+      "confidence": 0.852,
+      "classId": 1,
+      "id": 5,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": 0.45551859189973753,
+        "y": 16.300528774823757,
+        "z": 0.7273896849897863,
+        "width": 4.506,
+        "height": 1.997,
+        "length": 1.636,
+        "orientation": 4.047
+      },
+      "confidence": 0.839,
+      "classId": 1,
+      "id": 6,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": 21.016627240473667,
+        "y": 7.19671093090049,
+        "z": 0.500199173693345,
+        "width": 4.244,
+        "height": 1.973,
+        "length": 1.617,
+        "orientation": 2.239
+      },
+      "confidence": 0.801,
+      "classId": 1,
+      "id": 7,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": -18.185350836250485,
+        "y": 4.940385453131077,
+        "z": 0.7294597432905483,
+        "width": 4.366,
+        "height": 1.972,
+        "length": 1.566,
+        "orientation": 4.038
+      },
+      "confidence": 0.771,
+      "classId": 1,
+      "id": 8,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": 11.586281712205686,
+        "y": 30.21780984195733,
+        "z": 0.3830456618900613,
+        "width": 4.556,
+        "height": 2.044,
+        "length": 1.537,
+        "orientation": 4.005
+      },
+      "confidence": 0.765,
+      "classId": 1,
+      "id": 9,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": 39.787439252336455,
+        "y": -18.156158878504677,
+        "z": 1.4632429906542057,
+        "width": 5.278,
+        "height": 2.277,
+        "length": 2.087,
+        "orientation": 2.187
+      },
+      "confidence": 0.747,
+      "classId": 1,
+      "id": 10,
+      "trackId": 29
+    },
+    {
+      "bbox": {
+        "x": 35.12719427421708,
+        "y": -11.688812621910952,
+        "z": 0.765282664454991,
+        "width": 4.531,
+        "height": 2.041,
+        "length": 1.726,
+        "orientation": 2.192
+      },
+      "confidence": 0.746,
+      "classId": 1,
+      "id": 11,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": -14.017438092126755,
+        "y": 9.43227017314603,
+        "z": 0.642624959163672,
+        "width": 4.434,
+        "height": 1.959,
+        "length": 1.631,
+        "orientation": 3.931
+      },
+      "confidence": 0.721,
+      "classId": 1,
+      "id": 12,
+      "trackId": 26
+    },
+    {
+      "bbox": {
+        "x": -1.017596061988358,
+        "y": 4.696483681211507,
+        "z": 0.8024692438833342,
+        "width": 4.497,
+        "height": 2.032,
+        "length": 1.849,
+        "orientation": 0.821
+      },
+      "confidence": 0.695,
+      "classId": 1,
+      "id": 13,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": 20.7906910411771,
+        "y": 31.44177416332612,
+        "z": 0.6228393002503494,
+        "width": 4.644,
+        "height": 2.127,
+        "length": 1.862,
+        "orientation": 3.871
+      },
+      "confidence": 0.659,
+      "classId": 1,
+      "id": 14,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": 16.474863198636132,
+        "y": 21.647224055046152,
+        "z": 0.49867810901718657,
+        "width": 4.475,
+        "height": 2.01,
+        "length": 1.637,
+        "orientation": 7.046
+      },
+      "confidence": 0.653,
+      "classId": 1,
+      "id": 15,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": -12.980631218418344,
+        "y": 2.0519872982229796,
+        "z": 0.7553202936613985,
+        "width": 4.437,
+        "height": 1.957,
+        "length": 1.645,
+        "orientation": 3.982
+      },
+      "confidence": 0.65,
+      "classId": 1,
+      "id": 16,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": -30.582293369580242,
+        "y": -7.202999124544993,
+        "z": 0.7763730820623878,
+        "width": 4.429,
+        "height": 1.96,
+        "length": 1.501,
+        "orientation": 3.959
+      },
+      "confidence": 0.629,
+      "classId": 1,
+      "id": 17,
+      "trackId": 13
+    },
+    {
+      "bbox": {
+        "x": -35.28358823529411,
+        "y": -28.337823529411764,
+        "z": 1.3610588235294117,
+        "width": 4.88,
+        "height": 2.148,
+        "length": 1.787,
+        "orientation": 6.908
+      },
+      "confidence": 0.619,
+      "classId": 1,
+      "id": 18,
+      "trackId": 31
+    },
+    {
+      "bbox": {
+        "x": -8.78739206561305,
+        "y": 23.71002740020581,
+        "z": 0.5267632278179668,
+        "width": 4.614,
+        "height": 2.078,
+        "length": 1.781,
+        "orientation": 5.41
+      },
+      "confidence": 0.602,
+      "classId": 1,
+      "id": 19,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": 19.610619207790013,
+        "y": 33.93374685527347,
+        "z": 0.5652541737701393,
+        "width": 4.442,
+        "height": 1.985,
+        "length": 1.629,
+        "orientation": 3.83
+      },
+      "confidence": 0.596,
+      "classId": 1,
+      "id": 20,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": 26.515322831583042,
+        "y": 36.71283741734734,
+        "z": 0.434514585764294,
+        "width": 4.421,
+        "height": 1.998,
+        "length": 1.58,
+        "orientation": 3.892
+      },
+      "confidence": 0.579,
+      "classId": 1,
+      "id": 21,
+      "trackId": 9
+    },
+    {
+      "bbox": {
+        "x": -12.591364321110012,
+        "y": -7.033932011892963,
+        "z": 0.7331224975222993,
+        "width": 4.627,
+        "height": 2.019,
+        "length": 1.587,
+        "orientation": 0.813
+      },
+      "confidence": 0.569,
+      "classId": 1,
+      "id": 22,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": -7.226325746056615,
+        "y": 26.61698310525427,
+        "z": 0.5543972569076472,
+        "width": 4.698,
+        "height": 2.096,
+        "length": 1.616,
+        "orientation": 5.468
+      },
+      "confidence": 0.515,
+      "classId": 1,
+      "id": 23,
+      "trackId": 20
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 26.274519517574777,
+        "y": 13.530299952248635,
+        "z": 0.25006165292488486,
+        "width": 4.964,
+        "height": 2.175,
+        "length": 1.596,
+        "orientation": 1.807
+      },
+      "confidence": 0.935,
+      "classId": 1,
+      "id": 1,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 11.780198748459451,
+        "y": -8.43101856209269,
+        "z": 0.4521968775154737,
+        "width": 5.363,
+        "height": 2.181,
+        "length": 1.631,
+        "orientation": 5.786
+      },
+      "confidence": 0.932,
+      "classId": 1,
+      "id": 2,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 0.767021220706811,
+        "y": -6.732894032898416,
+        "z": 0.555369521895138,
+        "width": 4.746,
+        "height": 1.98,
+        "length": 1.812,
+        "orientation": 6.609
+      },
+      "confidence": 0.882,
+      "classId": 1,
+      "id": 3,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": -0.23052958992946437,
+        "y": 15.561788856195625,
+        "z": 0.7506922911105149,
+        "width": 4.489,
+        "height": 1.992,
+        "length": 1.713,
+        "orientation": 4.024
+      },
+      "confidence": 0.881,
+      "classId": 1,
+      "id": 4,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": 30.963725859865658,
+        "y": -5.314985388082168,
+        "z": 0.4780457921951531,
+        "width": 4.888,
+        "height": 2.144,
+        "length": 1.713,
+        "orientation": 2.178
+      },
+      "confidence": 0.849,
+      "classId": 1,
+      "id": 5,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 25.910093640882447,
+        "y": 1.3965180286417236,
+        "z": 0.6948523955268341,
+        "width": 6.594,
+        "height": 2.627,
+        "length": 2.168,
+        "orientation": 2.193
+      },
+      "confidence": 0.834,
+      "classId": 1,
+      "id": 6,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": -18.237251794078038,
+        "y": 4.91472191287917,
+        "z": 0.6547865800952821,
+        "width": 4.26,
+        "height": 1.888,
+        "length": 1.558,
+        "orientation": 4.043
+      },
+      "confidence": 0.83,
+      "classId": 1,
+      "id": 7,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": 20.973213515000754,
+        "y": 7.198158592744521,
+        "z": 0.4642452901236533,
+        "width": 4.215,
+        "height": 1.968,
+        "length": 1.579,
+        "orientation": 2.234
+      },
+      "confidence": 0.817,
+      "classId": 1,
+      "id": 8,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": 35.09000973945946,
+        "y": -11.672838977847915,
+        "z": 0.8232436920446224,
+        "width": 4.393,
+        "height": 1.992,
+        "length": 1.738,
+        "orientation": 2.201
+      },
+      "confidence": 0.766,
+      "classId": 1,
+      "id": 9,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": 39.61825593154414,
+        "y": -18.295940490081676,
+        "z": 1.34272734344613,
+        "width": 5.416,
+        "height": 2.323,
+        "length": 2.121,
+        "orientation": 2.093
+      },
+      "confidence": 0.752,
+      "classId": 1,
+      "id": 10,
+      "trackId": 30
+    },
+    {
+      "bbox": {
+        "x": -14.035738561489195,
+        "y": 9.39333095271007,
+        "z": 0.591879095055983,
+        "width": 4.427,
+        "height": 1.96,
+        "length": 1.623,
+        "orientation": 3.939
+      },
+      "confidence": 0.745,
+      "classId": 1,
+      "id": 11,
+      "trackId": 27
+    },
+    {
+      "bbox": {
+        "x": 10.988393986056602,
+        "y": 29.52521791449322,
+        "z": 0.41353232494576814,
+        "width": 4.649,
+        "height": 2.075,
+        "length": 1.571,
+        "orientation": 3.966
+      },
+      "confidence": 0.693,
+      "classId": 1,
+      "id": 12,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": 20.82357583962818,
+        "y": 31.41611771120884,
+        "z": 0.6876771089049474,
+        "width": 4.754,
+        "height": 2.172,
+        "length": 1.917,
+        "orientation": 3.872
+      },
+      "confidence": 0.676,
+      "classId": 1,
+      "id": 13,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": -13.848962798502882,
+        "y": 1.3633331990231436,
+        "z": 0.7495993396668319,
+        "width": 4.24,
+        "height": 1.937,
+        "length": 1.554,
+        "orientation": 4.015
+      },
+      "confidence": 0.623,
+      "classId": 1,
+      "id": 14,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": -0.487869342259049,
+        "y": 5.109112350322207,
+        "z": 0.8208163655298809,
+        "width": 4.54,
+        "height": 2.026,
+        "length": 1.863,
+        "orientation": 3.92
+      },
+      "confidence": 0.603,
+      "classId": 1,
+      "id": 15,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": -12.048416018689634,
+        "y": -6.497881957762359,
+        "z": 0.7594108581191813,
+        "width": 4.55,
+        "height": 1.983,
+        "length": 1.668,
+        "orientation": 0.818
+      },
+      "confidence": 0.601,
+      "classId": 1,
+      "id": 16,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": -8.817346754044086,
+        "y": 23.69276566995166,
+        "z": 0.5313660146710386,
+        "width": 4.494,
+        "height": 2.033,
+        "length": 1.751,
+        "orientation": 5.414
+      },
+      "confidence": 0.59,
+      "classId": 1,
+      "id": 17,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": -26.395329628641367,
+        "y": -3.7426527257329143,
+        "z": 0.9519512744063019,
+        "width": 4.005,
+        "height": 1.908,
+        "length": 1.77,
+        "orientation": 3.999
+      },
+      "confidence": 0.588,
+      "classId": 1,
+      "id": 18,
+      "trackId": 19
+    },
+    {
+      "bbox": {
+        "x": 17.07519593340276,
+        "y": 22.310899696665132,
+        "z": 0.47561617998171796,
+        "width": 4.339,
+        "height": 1.988,
+        "length": 1.655,
+        "orientation": 7.059
+      },
+      "confidence": 0.582,
+      "classId": 1,
+      "id": 19,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": 30.378,
+        "y": 1.924,
+        "z": 0.204,
+        "width": 4.589,
+        "height": 2.026,
+        "length": 1.578,
+        "orientation": 1.892
+      },
+      "confidence": 0.579,
+      "classId": 1,
+      "id": 20,
+      "trackId": 32
+    },
+    {
+      "bbox": {
+        "x": 26.332329567612113,
+        "y": 36.66010237803285,
+        "z": 0.4641412949524595,
+        "width": 4.439,
+        "height": 1.99,
+        "length": 1.55,
+        "orientation": 3.892
+      },
+      "confidence": 0.579,
+      "classId": 1,
+      "id": 21,
+      "trackId": 9
+    },
+    {
+      "bbox": {
+        "x": -21.985707736389685,
+        "y": 1.2817379525918207,
+        "z": 0.9092258400625163,
+        "width": 4.44,
+        "height": 1.981,
+        "length": 1.704,
+        "orientation": 4.013
+      },
+      "confidence": 0.543,
+      "classId": 1,
+      "id": 22,
+      "trackId": 23
+    },
+    {
+      "bbox": {
+        "x": 19.207778220829596,
+        "y": 33.99652000964123,
+        "z": 0.5643137883204709,
+        "width": 4.682,
+        "height": 2.112,
+        "length": 1.627,
+        "orientation": 4.024
+      },
+      "confidence": 0.542,
+      "classId": 1,
+      "id": 23,
+      "trackId": 21
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 26.223912355766476,
+        "y": 13.541547568367498,
+        "z": 0.2517835864926401,
+        "width": 4.973,
+        "height": 2.1,
+        "length": 1.572,
+        "orientation": 1.795
+      },
+      "confidence": 0.931,
+      "classId": 1,
+      "id": 1,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 12.337956861771833,
+        "y": -8.794690941599615,
+        "z": 0.45388868918089487,
+        "width": 5.379,
+        "height": 2.158,
+        "length": 1.613,
+        "orientation": 5.763
+      },
+      "confidence": 0.908,
+      "classId": 1,
+      "id": 2,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 30.91885860243976,
+        "y": -5.201735769687869,
+        "z": 0.4855366811507775,
+        "width": 4.875,
+        "height": 2.14,
+        "length": 1.736,
+        "orientation": 2.17
+      },
+      "confidence": 0.888,
+      "classId": 1,
+      "id": 3,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 1.2261048757816466,
+        "y": -6.659623712510118,
+        "z": 0.48793782832495003,
+        "width": 4.703,
+        "height": 1.954,
+        "length": 1.82,
+        "orientation": 6.578
+      },
+      "confidence": 0.854,
+      "classId": 1,
+      "id": 4,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": 25.91676584098125,
+        "y": 1.5164697298379757,
+        "z": 0.7264557477509226,
+        "width": 6.587,
+        "height": 2.67,
+        "length": 2.179,
+        "orientation": 2.198
+      },
+      "confidence": 0.85,
+      "classId": 1,
+      "id": 5,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": 20.975198234213906,
+        "y": 7.178826313006971,
+        "z": 0.4815066760620714,
+        "width": 4.22,
+        "height": 1.979,
+        "length": 1.577,
+        "orientation": 2.199
+      },
+      "confidence": 0.845,
+      "classId": 1,
+      "id": 6,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": -18.281663013859998,
+        "y": 4.826504441904267,
+        "z": 0.6061521413812874,
+        "width": 4.372,
+        "height": 1.939,
+        "length": 1.566,
+        "orientation": 4.01
+      },
+      "confidence": 0.84,
+      "classId": 1,
+      "id": 7,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": -0.897367640367625,
+        "y": 14.791145439100784,
+        "z": 0.7469771259465783,
+        "width": 4.424,
+        "height": 1.984,
+        "length": 1.666,
+        "orientation": 3.992
+      },
+      "confidence": 0.821,
+      "classId": 1,
+      "id": 8,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": -14.060406803432643,
+        "y": 9.414907304139815,
+        "z": 0.5677765026899935,
+        "width": 4.518,
+        "height": 1.983,
+        "length": 1.676,
+        "orientation": 3.958
+      },
+      "confidence": 0.79,
+      "classId": 1,
+      "id": 9,
+      "trackId": 26
+    },
+    {
+      "bbox": {
+        "x": 10.474253974190024,
+        "y": 28.866175123521227,
+        "z": 0.4680364224715856,
+        "width": 4.572,
+        "height": 2.071,
+        "length": 1.551,
+        "orientation": 3.985
+      },
+      "confidence": 0.751,
+      "classId": 1,
+      "id": 10,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": 35.09577733977069,
+        "y": -11.686133343167839,
+        "z": 0.8168510139132229,
+        "width": 4.529,
+        "height": 2.04,
+        "length": 1.646,
+        "orientation": 2.182
+      },
+      "confidence": 0.74,
+      "classId": 1,
+      "id": 11,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": -14.84792903187438,
+        "y": 0.35856189664273863,
+        "z": 0.7489749318558714,
+        "width": 4.512,
+        "height": 1.971,
+        "length": 1.616,
+        "orientation": 3.96
+      },
+      "confidence": 0.723,
+      "classId": 1,
+      "id": 13,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": 20.84318161644533,
+        "y": 31.41712697524041,
+        "z": 0.682426269470327,
+        "width": 4.699,
+        "height": 2.148,
+        "length": 1.866,
+        "orientation": 3.897
+      },
+      "confidence": 0.669,
+      "classId": 1,
+      "id": 14,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": 39.786888113856115,
+        "y": -18.24782981888355,
+        "z": 1.546897601865439,
+        "width": 5.653,
+        "height": 2.403,
+        "length": 2.188,
+        "orientation": 2.156
+      },
+      "confidence": 0.665,
+      "classId": 1,
+      "id": 15,
+      "trackId": 32
+    },
+    {
+      "bbox": {
+        "x": 0.053774325138156776,
+        "y": 5.581476648791971,
+        "z": 0.8126033196606541,
+        "width": 4.446,
+        "height": 1.98,
+        "length": 1.848,
+        "orientation": 3.907
+      },
+      "confidence": 0.612,
+      "classId": 1,
+      "id": 16,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": 19.00137112363869,
+        "y": 33.59666125344455,
+        "z": 0.5642790848296297,
+        "width": 4.503,
+        "height": 2.057,
+        "length": 1.634,
+        "orientation": 3.863
+      },
+      "confidence": 0.579,
+      "classId": 1,
+      "id": 17,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": -11.606497137733095,
+        "y": -6.149674478529969,
+        "z": 0.7211769066988664,
+        "width": 4.439,
+        "height": 1.933,
+        "length": 1.61,
+        "orientation": 0.825
+      },
+      "confidence": 0.571,
+      "classId": 1,
+      "id": 18,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": -21.978876372057123,
+        "y": 1.3108828869162483,
+        "z": 0.733527688151293,
+        "width": 4.264,
+        "height": 1.962,
+        "length": 1.679,
+        "orientation": 3.988
+      },
+      "confidence": 0.556,
+      "classId": 1,
+      "id": 19,
+      "trackId": 23
+    },
+    {
+      "bbox": {
+        "x": -30.807111175392922,
+        "y": -7.520018301031723,
+        "z": 0.9559055057371516,
+        "width": 4.482,
+        "height": 1.956,
+        "length": 1.55,
+        "orientation": 4.003
+      },
+      "confidence": 0.553,
+      "classId": 1,
+      "id": 20,
+      "trackId": 13
+    },
+    {
+      "bbox": {
+        "x": 17.798497490644912,
+        "y": 23.030304256581243,
+        "z": 0.4554187410938448,
+        "width": 4.431,
+        "height": 1.984,
+        "length": 1.65,
+        "orientation": 7.062
+      },
+      "confidence": 0.551,
+      "classId": 1,
+      "id": 21,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": -8.975942014384069,
+        "y": 23.744970109043617,
+        "z": 0.546371514812107,
+        "width": 4.731,
+        "height": 2.078,
+        "length": 1.782,
+        "orientation": 5.415
+      },
+      "confidence": 0.55,
+      "classId": 1,
+      "id": 22,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": -5.627,
+        "y": -4.939,
+        "z": 0.705,
+        "width": 4.681,
+        "height": 2.02,
+        "length": 1.844,
+        "orientation": 0.814
+      },
+      "confidence": 0.533,
+      "classId": 1,
+      "id": 23,
+      "trackId": 33
+    },
+    {
+      "bbox": {
+        "x": 26.430497868294623,
+        "y": 36.5928366946607,
+        "z": 0.4186102627160102,
+        "width": 4.434,
+        "height": 1.992,
+        "length": 1.537,
+        "orientation": 3.952
+      },
+      "confidence": 0.527,
+      "classId": 1,
+      "id": 24,
+      "trackId": 9
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 26.162081536069245,
+        "y": 13.639684625082255,
+        "z": 0.25306413250108817,
+        "width": 4.884,
+        "height": 2.12,
+        "length": 1.609,
+        "orientation": 1.779
+      },
+      "confidence": 0.928,
+      "classId": 1,
+      "id": 1,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 1.72364801600809,
+        "y": -6.527141095750386,
+        "z": 0.45541439666037165,
+        "width": 4.742,
+        "height": 1.972,
+        "length": 1.818,
+        "orientation": 6.54
+      },
+      "confidence": 0.896,
+      "classId": 1,
+      "id": 2,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": 12.970979155021327,
+        "y": -9.212016104902876,
+        "z": 0.43311397873730917,
+        "width": 5.429,
+        "height": 2.177,
+        "length": 1.695,
+        "orientation": 5.753
+      },
+      "confidence": 0.888,
+      "classId": 1,
+      "id": 3,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 30.958281385926185,
+        "y": -5.317503456734592,
+        "z": 0.4353393670352734,
+        "width": 4.897,
+        "height": 2.142,
+        "length": 1.649,
+        "orientation": 2.188
+      },
+      "confidence": 0.88,
+      "classId": 1,
+      "id": 4,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 25.80874631137023,
+        "y": 1.590866321627309,
+        "z": 0.7421072232889052,
+        "width": 6.489,
+        "height": 2.661,
+        "length": 2.173,
+        "orientation": 2.186
+      },
+      "confidence": 0.848,
+      "classId": 1,
+      "id": 5,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": -18.32794724174035,
+        "y": 4.778362489319233,
+        "z": 0.5864613798948859,
+        "width": 4.367,
+        "height": 1.927,
+        "length": 1.583,
+        "orientation": 4.006
+      },
+      "confidence": 0.839,
+      "classId": 1,
+      "id": 6,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": 9.963804695946704,
+        "y": 28.30314488142349,
+        "z": 0.4840793490104893,
+        "width": 4.781,
+        "height": 2.112,
+        "length": 1.574,
+        "orientation": 4.01
+      },
+      "confidence": 0.837,
+      "classId": 1,
+      "id": 7,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": 21.015105580837986,
+        "y": 7.197118298338209,
+        "z": 0.46654034177632225,
+        "width": 4.404,
+        "height": 2.006,
+        "length": 1.612,
+        "orientation": 2.221
+      },
+      "confidence": 0.832,
+      "classId": 1,
+      "id": 8,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": 30.201400849395622,
+        "y": 2.356251551780464,
+        "z": 0.4293038222803005,
+        "width": 4.578,
+        "height": 2.066,
+        "length": 1.671,
+        "orientation": 2.058
+      },
+      "confidence": 0.787,
+      "classId": 1,
+      "id": 9,
+      "trackId": 34
+    },
+    {
+      "bbox": {
+        "x": -14.006868806786422,
+        "y": 9.369907863241973,
+        "z": 0.5407272774392758,
+        "width": 4.384,
+        "height": 2.016,
+        "length": 1.695,
+        "orientation": 3.961
+      },
+      "confidence": 0.773,
+      "classId": 1,
+      "id": 10,
+      "trackId": 31
+    },
+    {
+      "bbox": {
+        "x": -1.6059060038007729,
+        "y": 13.954890808792769,
+        "z": 0.7578272534095144,
+        "width": 4.363,
+        "height": 1.989,
+        "length": 1.639,
+        "orientation": 3.98
+      },
+      "confidence": 0.773,
+      "classId": 1,
+      "id": 11,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": 35.110830111788076,
+        "y": -11.651361232648426,
+        "z": 0.815341848075986,
+        "width": 4.509,
+        "height": 2.031,
+        "length": 1.665,
+        "orientation": 2.219
+      },
+      "confidence": 0.74,
+      "classId": 1,
+      "id": 12,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": 39.83695284405677,
+        "y": -18.278149849212042,
+        "z": 1.5883464372814655,
+        "width": 5.755,
+        "height": 2.431,
+        "length": 2.269,
+        "orientation": 2.153
+      },
+      "confidence": 0.659,
+      "classId": 1,
+      "id": 13,
+      "trackId": 32
+    },
+    {
+      "bbox": {
+        "x": -3.43,
+        "y": 23.208,
+        "z": 0.703,
+        "width": 1.001,
+        "height": 0.827,
+        "length": 1.835,
+        "orientation": 4.613
+      },
+      "confidence": 0.65,
+      "classId": 2,
+      "id": 14,
+      "trackId": 34
+    },
+    {
+      "bbox": {
+        "x": 26.41002480860582,
+        "y": 36.60065114595815,
+        "z": 0.39964670516613854,
+        "width": 4.571,
+        "height": 2.038,
+        "length": 1.569,
+        "orientation": 3.801
+      },
+      "confidence": 0.644,
+      "classId": 1,
+      "id": 15,
+      "trackId": 9
+    },
+    {
+      "bbox": {
+        "x": 20.853975366331102,
+        "y": 31.401306991733065,
+        "z": 0.7171846018832885,
+        "width": 4.677,
+        "height": 2.133,
+        "length": 1.912,
+        "orientation": 3.915
+      },
+      "confidence": 0.64,
+      "classId": 1,
+      "id": 16,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": 18.420213548963392,
+        "y": 23.660667675435224,
+        "z": 0.5124567617248262,
+        "width": 4.317,
+        "height": 1.989,
+        "length": 1.686,
+        "orientation": 7.053
+      },
+      "confidence": 0.623,
+      "classId": 1,
+      "id": 17,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": 0.45919723275259333,
+        "y": 6.085355427691765,
+        "z": 0.8222693064620659,
+        "width": 4.462,
+        "height": 1.989,
+        "length": 1.856,
+        "orientation": 0.79
+      },
+      "confidence": 0.601,
+      "classId": 1,
+      "id": 18,
+      "trackId": 19
+    },
+    {
+      "bbox": {
+        "x": -6.912478675682447,
+        "y": 26.574464600571325,
+        "z": 0.5452868154796525,
+        "width": 4.603,
+        "height": 2.074,
+        "length": 1.599,
+        "orientation": 5.313
+      },
+      "confidence": 0.584,
+      "classId": 1,
+      "id": 19,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": -8.824584704273178,
+        "y": 23.57663325570208,
+        "z": 0.5109034993120206,
+        "width": 4.336,
+        "height": 2.016,
+        "length": 1.58,
+        "orientation": 5.438
+      },
+      "confidence": 0.572,
+      "classId": 1,
+      "id": 20,
+      "trackId": 23
+    },
+    {
+      "bbox": {
+        "x": -22.030036665250922,
+        "y": 1.3504600225699255,
+        "z": 0.7230237022056286,
+        "width": 4.274,
+        "height": 1.972,
+        "length": 1.751,
+        "orientation": 3.969
+      },
+      "confidence": 0.557,
+      "classId": 1,
+      "id": 21,
+      "trackId": 26
+    },
+    {
+      "bbox": {
+        "x": -11.239201690309123,
+        "y": -5.683623482151382,
+        "z": 0.6941120581245381,
+        "width": 4.495,
+        "height": 1.965,
+        "length": 1.641,
+        "orientation": 0.8
+      },
+      "confidence": 0.549,
+      "classId": 1,
+      "id": 22,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": 18.726521423380724,
+        "y": 33.23053493951687,
+        "z": 0.5633834868624082,
+        "width": 4.379,
+        "height": 1.989,
+        "length": 1.66,
+        "orientation": 3.873
+      },
+      "confidence": 0.548,
+      "classId": 1,
+      "id": 23,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": -15.77880241436801,
+        "y": -0.5534903219002489,
+        "z": 0.7090680033530732,
+        "width": 4.528,
+        "height": 1.966,
+        "length": 1.553,
+        "orientation": 3.973
+      },
+      "confidence": 0.546,
+      "classId": 1,
+      "id": 24,
+      "trackId": 8
+    }
+  ],
+  [
+    {
+      "bbox": {
+        "x": 26.177,
+        "y": 13.691,
+        "z": 0.228,
+        "width": 4.946,
+        "height": 2.106,
+        "length": 1.591,
+        "orientation": 1.79
+      },
+      "confidence": 0.935,
+      "classId": 1,
+      "id": 1,
+      "trackId": 2
+    },
+    {
+      "bbox": {
+        "x": 12.879,
+        "y": -9.239,
+        "z": 0.426,
+        "width": 5.331,
+        "height": 2.147,
+        "length": 1.657,
+        "orientation": 5.704
+      },
+      "confidence": 0.889,
+      "classId": 1,
+      "id": 2,
+      "trackId": 1
+    },
+    {
+      "bbox": {
+        "x": 25.825,
+        "y": 1.474,
+        "z": 0.739,
+        "width": 6.393,
+        "height": 2.581,
+        "length": 2.131,
+        "orientation": 2.181
+      },
+      "confidence": 0.882,
+      "classId": 1,
+      "id": 3,
+      "trackId": 7
+    },
+    {
+      "bbox": {
+        "x": 30.952,
+        "y": -5.297,
+        "z": 0.493,
+        "width": 4.879,
+        "height": 2.138,
+        "length": 1.677,
+        "orientation": 2.17
+      },
+      "confidence": 0.876,
+      "classId": 1,
+      "id": 4,
+      "trackId": 3
+    },
+    {
+      "bbox": {
+        "x": 1.778,
+        "y": -6.576,
+        "z": 0.507,
+        "width": 4.723,
+        "height": 1.943,
+        "length": 1.837,
+        "orientation": 6.515
+      },
+      "confidence": 0.87,
+      "classId": 1,
+      "id": 5,
+      "trackId": 6
+    },
+    {
+      "bbox": {
+        "x": -18.241,
+        "y": 4.845,
+        "z": 0.61,
+        "width": 4.538,
+        "height": 1.933,
+        "length": 1.649,
+        "orientation": 4.046
+      },
+      "confidence": 0.864,
+      "classId": 1,
+      "id": 6,
+      "trackId": 14
+    },
+    {
+      "bbox": {
+        "x": 21.005,
+        "y": 7.204,
+        "z": 0.525,
+        "width": 4.305,
+        "height": 1.99,
+        "length": 1.634,
+        "orientation": 2.208
+      },
+      "confidence": 0.859,
+      "classId": 1,
+      "id": 7,
+      "trackId": 4
+    },
+    {
+      "bbox": {
+        "x": 30.259,
+        "y": 2.072,
+        "z": 0.308,
+        "width": 4.511,
+        "height": 2.025,
+        "length": 1.573,
+        "orientation": 5.131
+      },
+      "confidence": 0.839,
+      "classId": 1,
+      "id": 8,
+      "trackId": 32
+    },
+    {
+      "bbox": {
+        "x": 9.934,
+        "y": 28.28,
+        "z": 0.494,
+        "width": 4.739,
+        "height": 2.096,
+        "length": 1.614,
+        "orientation": 3.988
+      },
+      "confidence": 0.811,
+      "classId": 1,
+      "id": 9,
+      "trackId": 10
+    },
+    {
+      "bbox": {
+        "x": -14.055,
+        "y": 9.397,
+        "z": 0.53,
+        "width": 4.481,
+        "height": 1.984,
+        "length": 1.662,
+        "orientation": 3.953
+      },
+      "confidence": 0.786,
+      "classId": 1,
+      "id": 10,
+      "trackId": 26
+    },
+    {
+      "bbox": {
+        "x": -1.592,
+        "y": 14.022,
+        "z": 0.681,
+        "width": 4.393,
+        "height": 1.995,
+        "length": 1.563,
+        "orientation": 3.976
+      },
+      "confidence": 0.773,
+      "classId": 1,
+      "id": 11,
+      "trackId": 5
+    },
+    {
+      "bbox": {
+        "x": 0.532,
+        "y": 6.241,
+        "z": 0.817,
+        "width": 4.435,
+        "height": 1.967,
+        "length": 1.853,
+        "orientation": 0.823
+      },
+      "confidence": 0.755,
+      "classId": 1,
+      "id": 12,
+      "trackId": 18
+    },
+    {
+      "bbox": {
+        "x": 35.106,
+        "y": -11.626,
+        "z": 0.812,
+        "width": 4.446,
+        "height": 2.002,
+        "length": 1.681,
+        "orientation": 2.202
+      },
+      "confidence": 0.72,
+      "classId": 1,
+      "id": 13,
+      "trackId": 11
+    },
+    {
+      "bbox": {
+        "x": 26.432,
+        "y": 36.657,
+        "z": 0.426,
+        "width": 4.552,
+        "height": 2.046,
+        "length": 1.59,
+        "orientation": 3.8
+      },
+      "confidence": 0.699,
+      "classId": 1,
+      "id": 14,
+      "trackId": 9
+    },
+    {
+      "bbox": {
+        "x": 39.723,
+        "y": -18.246,
+        "z": 1.392,
+        "width": 5.344,
+        "height": 2.359,
+        "length": 2.172,
+        "orientation": 2.158
+      },
+      "confidence": 0.654,
+      "classId": 1,
+      "id": 15,
+      "trackId": 29
+    },
+    {
+      "bbox": {
+        "x": -3.319,
+        "y": 23.331,
+        "z": 0.667,
+        "width": 0.948,
+        "height": 0.811,
+        "length": 1.801,
+        "orientation": 1.528
+      },
+      "confidence": 0.631,
+      "classId": 2,
+      "id": 16,
+      "trackId": 34
+    },
+    {
+      "bbox": {
+        "x": -33.421,
+        "y": -26.997,
+        "z": 1.132,
+        "width": 5.048,
+        "height": 2.182,
+        "length": 1.937,
+        "orientation": 6.853
+      },
+      "confidence": 0.607,
+      "classId": 1,
+      "id": 17,
+      "trackId": 31
+    },
+    {
+      "bbox": {
+        "x": 18.851,
+        "y": 33.468,
+        "z": 0.583,
+        "width": 4.594,
+        "height": 2.035,
+        "length": 1.673,
+        "orientation": 3.899
+      },
+      "confidence": 0.599,
+      "classId": 1,
+      "id": 18,
+      "trackId": 21
+    },
+    {
+      "bbox": {
+        "x": 20.82,
+        "y": 31.397,
+        "z": 0.685,
+        "width": 4.58,
+        "height": 2.099,
+        "length": 1.88,
+        "orientation": 0.79
+      },
+      "confidence": 0.597,
+      "classId": 1,
+      "id": 19,
+      "trackId": 12
+    },
+    {
+      "bbox": {
+        "x": 18.482,
+        "y": 23.755,
+        "z": 0.456,
+        "width": 4.23,
+        "height": 1.935,
+        "length": 1.675,
+        "orientation": 0.838
+      },
+      "confidence": 0.595,
+      "classId": 1,
+      "id": 20,
+      "trackId": 17
+    },
+    {
+      "bbox": {
+        "x": -15.63,
+        "y": -0.533,
+        "z": 0.737,
+        "width": 4.285,
+        "height": 1.884,
+        "length": 1.578,
+        "orientation": 3.986
+      },
+      "confidence": 0.581,
+      "classId": 1,
+      "id": 21,
+      "trackId": 8
+    },
+    {
+      "bbox": {
+        "x": -19.028,
+        "y": 34.212,
+        "z": 0.72,
+        "width": 4.934,
+        "height": 2.193,
+        "length": 1.894,
+        "orientation": 5.337
+      },
+      "confidence": 0.577,
+      "classId": 1,
+      "id": 22,
+      "trackId": 35
+    },
+    {
+      "bbox": {
+        "x": -11.089,
+        "y": -5.65,
+        "z": 0.771,
+        "width": 4.51,
+        "height": 1.967,
+        "length": 1.657,
+        "orientation": 7.027
+      },
+      "confidence": 0.576,
+      "classId": 1,
+      "id": 23,
+      "trackId": 15
+    },
+    {
+      "bbox": {
+        "x": -8.649,
+        "y": 23.536,
+        "z": 0.568,
+        "width": 4.289,
+        "height": 2.007,
+        "length": 1.71,
+        "orientation": 5.391
+      },
+      "confidence": 0.57,
+      "classId": 1,
+      "id": 24,
+      "trackId": 22
+    },
+    {
+      "bbox": {
+        "x": -22.108,
+        "y": 1.221,
+        "z": 0.731,
+        "width": 4.352,
+        "height": 1.943,
+        "length": 1.784,
+        "orientation": 3.958
+      },
+      "confidence": 0.527,
+      "classId": 1,
+      "id": 25,
+      "trackId": 23
+    },
+    {
+      "bbox": {
+        "x": -4.849,
+        "y": -3.971,
+        "z": 0.686,
+        "width": 4.645,
+        "height": 1.999,
+        "length": 1.817,
+        "orientation": 7.015
+      },
+      "confidence": 0.525,
+      "classId": 1,
+      "id": 26,
+      "trackId": 36
+    }
+  ]
+]

@@ -58,9 +58,9 @@ export interface Track {
  * 跟踪器配置接口
  */
 export interface TrackerConfig {
-  /** 最大年龄（帧数） */
+  /** 最大年龄（帧数）解决死亡太快的问题 */
   maxAge?: number
-  /** 最小匹配次数 */
+  /** 最小匹配次数 解决出生太快的问题 */
   minHits?: number
   /** IoU阈值 */
   iouThreshold?: number

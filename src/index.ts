@@ -2,12 +2,13 @@
 // 3D多目标跟踪算法
 import { BoundingBox3D, Detection, Track } from './types'
 import { calculate3DIoU as calculateIoUUtil } from './utils'
+import { KalmanFilter3D } from './kalman'
 
-export interface TrackedDetection extends Detection {
+interface TrackedDetection extends Detection {
   trackId: number
 }
 
-export class AB3DMOTTracker {
+class AB3DMOTTracker {
   private tracks: Track[] = []
   private nextTrackId = 1
   private maxAge = 3
@@ -33,48 +34,25 @@ export class AB3DMOTTracker {
     this.frames = frames
   }
 
+
   /**
-   * 更新跟踪器，处理新的检测结果
-   * @param detections 当前帧的检测结果
-   * @returns 更新后的轨迹列表
+   * 单步处理：返回当前帧的带 trackId 的检测结果
    */
-  update(detections: Detection[]): Track[] {
+  step(detections: Detection[]): TrackedDetection[] {
     // 1. 预测现有轨迹
     this.predictTracks()
 
     // 2. 数据关联（匈牙利算法）
     const assignments = this.associateDetections(detections)
 
-    // 3. 更新轨迹
-    this.updateTracks(detections, assignments)
-
-    // 4. 创建新轨迹
-    this.createNewTracks(detections, assignments)
-
-    // 5. 删除旧轨迹
-    this.deleteOldTracks()
-
-    return this.tracks.filter(track => track.hits >= this.minHits)
-  }
-
-  /**
-   * 单步处理：返回当前帧的带 trackId 的检测结果
-   */
-  step(detections: Detection[]): TrackedDetection[] {
-    // 1. 预测
-    this.predictTracks()
-
-    // 2. 关联
-    const assignments = this.associateDetections(detections)
-
     // 3. 更新匹配的轨迹
     this.updateTracks(detections, assignments)
 
-    // 4. 为未匹配的检测创建新轨迹，并拿到新轨迹ID映射
-    const newTrackMap = this.createNewTracks(detections, assignments)
-
-    // 5. 删除过期轨迹
+    // 4. 删除过期轨迹（在创建新轨迹之前）
     this.deleteOldTracks()
+
+    // 5. 为未匹配的检测创建新轨迹，并拿到新轨迹ID映射
+    const newTrackMap = this.createNewTracks(detections, assignments)
 
     // 6. 组装输出：为每个检测找到对应的trackId
     const result: TrackedDetection[] = []
@@ -112,7 +90,18 @@ export class AB3DMOTTracker {
     this.tracks.forEach(track => {
       track.age++
       track.timeSinceUpdate++
-      // TODO: 实现卡尔曼滤波预测
+      
+      // 使用卡尔曼滤波器进行预测
+      if (track.kalmanFilter) {
+        track.kalmanFilter.predict(1.0) // dt = 1.0 帧
+        const [x, y, z, vx, vy, vz] = track.kalmanFilter.getPosition().concat(track.kalmanFilter.getVelocity())
+        
+        // 更新轨迹位置和速度
+        track.bbox.x = x
+        track.bbox.y = y
+        track.bbox.z = z
+        track.velocity = [vx, vy, vz]
+      }
     })
   }
 
@@ -154,9 +143,17 @@ export class AB3DMOTTracker {
       const trackIndex = assignments[i]
       if (trackIndex !== -1) {
         const track = this.tracks[trackIndex]
-        track.bbox = detections[i].bbox
+        const detection = detections[i]
+        
+        // 更新轨迹位置
+        track.bbox = detection.bbox
         track.timeSinceUpdate = 0
         track.hits = (track.hits ?? 0) + 1
+        
+        // 使用卡尔曼滤波器更新
+        if (track.kalmanFilter) {
+          track.kalmanFilter.update([detection.bbox.x, detection.bbox.y, detection.bbox.z])
+        }
       }
     }
   }
@@ -172,13 +169,19 @@ export class AB3DMOTTracker {
     for (let i = 0; i < detections.length; i++) {
       if (assignments[i] === -1) {
         const newId = this.nextTrackId++
+        const detection = detections[i]
+        
+        // 创建新的卡尔曼滤波器
+        const kalmanFilter = new KalmanFilter3D(detection.bbox, 0.1, 0.1)
+        
         this.tracks.push({
           id: newId,
-          bbox: detections[i].bbox,
+          bbox: detection.bbox,
           velocity: [0, 0, 0],
           age: 1,
           hits: 1,
-          timeSinceUpdate: 0
+          timeSinceUpdate: 0,
+          kalmanFilter
         })
         // 新增轨迹在数组末尾，记录其ID
         newMap.set(i, newId)
