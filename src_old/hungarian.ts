@@ -40,6 +40,7 @@ export class HungarianAlgorithm {
   private padMatrix(): void {
     // 将矩阵填充为方阵
     const rows = this.costMatrix.length
+    const cols = this.costMatrix[0]?.length || 0
     
     // 添加行
     for (let i = rows; i < this.size; i++) {
@@ -161,37 +162,9 @@ export function createIoUCostFunction<T extends { bbox: any }, U extends { bbox:
   iouThreshold: number = 0.3
 ) {
   return (detection: T, track: U): number => {
-    // 简化的3D IoU计算（轴对齐）
-    const bbox1 = detection.bbox
-    const bbox2 = track.bbox
-    
-    // 计算交集
-    const x1Min = bbox1.x - bbox1.width / 2
-    const x1Max = bbox1.x + bbox1.width / 2
-    const y1Min = bbox1.y - bbox1.height / 2
-    const y1Max = bbox1.y + bbox1.height / 2
-    const z1Min = bbox1.z - bbox1.length / 2
-    const z1Max = bbox1.z + bbox1.length / 2
-    
-    const x2Min = bbox2.x - bbox2.width / 2
-    const x2Max = bbox2.x + bbox2.width / 2
-    const y2Min = bbox2.y - bbox2.height / 2
-    const y2Max = bbox2.y + bbox2.height / 2
-    const z2Min = bbox2.z - bbox2.length / 2
-    const z2Max = bbox2.z + bbox2.length / 2
-    
-    const xOverlap = Math.max(0, Math.min(x1Max, x2Max) - Math.max(x1Min, x2Min))
-    const yOverlap = Math.max(0, Math.min(y1Max, y2Max) - Math.max(y1Min, y2Min))
-    const zOverlap = Math.max(0, Math.min(z1Max, z2Max) - Math.max(z1Min, z2Min))
-    
-    const intersection = xOverlap * yOverlap * zOverlap
-    
-    // 计算并集
-    const volume1 = bbox1.width * bbox1.height * bbox1.length
-    const volume2 = bbox2.width * bbox2.height * bbox2.length
-    const union = volume1 + volume2 - intersection
-    
-    const iou = union > 0 ? intersection / union : 0
+    // 这里需要实现IoU计算
+    // 返回 1 - IoU，IoU越高成本越低
+    const iou = 0 // TODO: 计算实际IoU
     return iou > iouThreshold ? 1 - iou : 1
   }
 }

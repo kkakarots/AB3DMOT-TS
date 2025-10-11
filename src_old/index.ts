@@ -3,7 +3,6 @@
 import { BoundingBox3D, Detection, Track } from './types'
 import { calculate3DIoU as calculateIoUUtil } from './utils'
 import { KalmanFilter3D } from './kalman'
-import { HungarianAlgorithm, calculateCostMatrix, createIoUCostFunction } from './hungarian'
 
 interface TrackedDetection extends Detection {
   trackId: number
@@ -56,25 +55,19 @@ class AB3DMOTTracker {
     const newTrackMap = this.createNewTracks(detections, assignments)
 
     // 6. 组装输出：为每个检测找到对应的trackId
-    // 重要：使用原始检测结果，不修改任何属性，只添加trackId
     const result: TrackedDetection[] = []
     for (let i = 0; i < detections.length; i++) {
       const assignedTrackIndex = assignments[i]
-      if (assignedTrackIndex !== -1 && assignedTrackIndex < this.tracks.length) {
+      if (assignedTrackIndex !== -1) {
         const trackId = this.tracks[assignedTrackIndex]?.id
         if (trackId != null) {
-          // 使用原始检测结果，只添加trackId
           result.push({ ...detections[i], trackId })
           continue
         }
       }
       const createdId = newTrackMap.get(i)
       if (createdId != null) {
-        // 使用原始检测结果，只添加trackId
         result.push({ ...detections[i], trackId: createdId })
-      } else {
-        // 保底：没匹配上也没新建，仍然输出，以解决标注结果丢失问题
-        result.push({ ...detections[i], trackId: this.nextTrackId++ })
       }
     }
     return result
@@ -113,23 +106,30 @@ class AB3DMOTTracker {
   }
 
   /**
-   * 数据关联：使用匈牙利算法进行最优匹配
+   * IoU
    * @param detections 
    * @returns 
    */
   private associateDetections(detections: Detection[]): number[] {
-    if (detections.length === 0 || this.tracks.length === 0) {
-      return new Array(detections.length).fill(-1)
+    // 简化的贪心匹配：基于IoU，给每个检测找当前未使用的最高IoU轨迹
+    const assignments = new Array(detections.length).fill(-1)
+    const usedTracks = new Set<number>()
+    for (let i = 0; i < detections.length; i++) {
+      let bestTrackIndex = -1
+      let bestIoU = -1
+      for (let t = 0; t < this.tracks.length; t++) {
+        if (usedTracks.has(t)) continue
+        const iou = this.calculate3DIoU(detections[i].bbox, this.tracks[t].bbox)
+        if (iou > bestIoU) {
+          bestIoU = iou
+          bestTrackIndex = t
+        }
+      }
+      if (bestTrackIndex !== -1 && bestIoU >= this.iouThreshold) {
+        assignments[i] = bestTrackIndex
+        usedTracks.add(bestTrackIndex)
+      }
     }
-
-    // 计算成本矩阵
-    const costFn = createIoUCostFunction<Detection, Track>(this.iouThreshold)
-    const costMatrix = calculateCostMatrix(detections, this.tracks, costFn)
-
-    // 使用匈牙利算法求解最优分配
-    const hungarian = new HungarianAlgorithm(costMatrix)
-    const assignments = hungarian.solve()
-
     return assignments
   }
 
@@ -141,13 +141,12 @@ class AB3DMOTTracker {
   private updateTracks(detections: Detection[], assignments: number[]): void {
     for (let i = 0; i < detections.length; i++) {
       const trackIndex = assignments[i]
-      if (trackIndex !== -1 && trackIndex < this.tracks.length) {
+      if (trackIndex !== -1) {
         const track = this.tracks[trackIndex]
         const detection = detections[i]
         
-        // 更新轨迹状态（用于内部跟踪逻辑）
-        // 深拷贝 bbox，避免修改原始检测数据
-        track.bbox = { ...detection.bbox }
+        // 更新轨迹位置
+        track.bbox = detection.bbox
         track.timeSinceUpdate = 0
         track.hits = (track.hits ?? 0) + 1
         
@@ -177,7 +176,7 @@ class AB3DMOTTracker {
         
         this.tracks.push({
           id: newId,
-          bbox: { ...detection.bbox },
+          bbox: detection.bbox,
           velocity: [0, 0, 0],
           age: 1,
           hits: 1,

@@ -54,7 +54,7 @@ function convertToDetection(object: InputObject): Detection {
 function processMultiFrames() {
   try {
     const resultDir = path.join(__dirname, '../result')
-    const files = fs.readdirSync(resultDir).filter(f => f.endsWith('.json') && !f.includes('tracked'))
+    const files = fs.readdirSync(resultDir).filter(f => f.endsWith('.json') && f !== '08_tracked.json')
     
     console.log(`找到 ${files.length} 个数据文件:`, files)
     
